@@ -49,7 +49,7 @@ To use the `bazel-azure` credential helper with Bazel add the following parts
 
 ```
 # .bazelrc
-build --credential_helper=%workspace%/credentialhelper
+build --credential_helper=%workspace%/bazel-azure
 ```
 
 ```
